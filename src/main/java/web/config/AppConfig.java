@@ -26,7 +26,7 @@ import java.util.Properties;
 @Configuration
 @PropertySource("classpath:db.properties")
 @EnableTransactionManagement
-@ComponentScan(value = "hiber")
+@ComponentScan(value = "web")
 public class AppConfig {
 
     @Autowired
